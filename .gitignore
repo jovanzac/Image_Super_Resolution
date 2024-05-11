@@ -9,4 +9,11 @@
 *.caffemodel
 *.mat
 *.npy
+*.env
 
+__pycache__/
+rough.py
+service_account.json
+QA.md
+results/*
+plates.txt

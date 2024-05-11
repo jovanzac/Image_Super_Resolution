@@ -1,6 +1,6 @@
 import os
 import torch
-import RRDBNet_arch as arch
+import scripts.RRDBNet_arch as arch
 
 pretrained_net = torch.load('./models/RRDB_ESRGAN_x4.pth')
 save_path = './models/RRDB_ESRGAN_x4.pth'

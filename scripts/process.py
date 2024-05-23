@@ -40,7 +40,7 @@ def infinite_find_n_process_plates() :
             enhanced_files = os.listdir("results/")
             all_plates_details = list()
             for e_file in enhanced_files :
-                reader = easyocr.Reader(['ch_sim','en'])
+                reader = easyocr.Reader(['en'])
                 result = reader.readtext("results/" + e_file)
                 plate_details = {
                     "vehicle_id": e_file[5:-6],
